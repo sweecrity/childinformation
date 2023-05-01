@@ -26,7 +26,7 @@
        <hr />
 
 
-          <form action="{{ url("/") }}/Form"  method="POST">
+          <form action="{{ url("/") }}/form"  method="POST">
 
             @csrf
             
@@ -86,7 +86,7 @@
                 
              <div class="form-group">
                     <label for="different_address">Is the Child Address Different?</label>
-                    <input type="checkbox"  name="differentaddress" id="differentaddress" >
+                    <input type="checkbox"  name="differentaddress" id="differentaddress">
              </div>
                 
              

@@ -33,8 +33,8 @@
     <div>
      <h1 style="text-align:center;">MY TASKS</h1>
 	<div style="text-align: center; padding-top: 50px;">
-		<button class="button"><a href="{{ url('/Form') }}" style="text-decoration: none; color: inherit;">Add Information</a></button>
-		<button class="button" style="margin-left: 20px;"><a href="{{ url('/Information') }}" style="text-decoration: none; color: inherit;">View Information</a></button>
+		<button class="button"><a href="{{ url('/form') }}" style="text-decoration: none; color: inherit;">Add Information</a></button>
+		<button class="button" style="margin-left: 20px;"><a href="{{ url('/information') }}" style="text-decoration: none; color: inherit;">View Information</a></button>
 	</div>
 </div>
 </body>

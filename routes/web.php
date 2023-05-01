@@ -18,10 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Form', [InformationController::class,'index']);
-Route::post('/Form', [InformationController::class,'registration']);
+Route::get('/form', [InformationController::class,'index']);
+Route::post('/form', [InformationController::class,'registration']);
 
-Route::get('/Information', [InformationController::class,'information'])->name('Information');
+Route::get('/information', [InformationController::class,'information'])->name('information');
 
 Route::get('/delete/{id}', [InformationController::class,'delete'])->name('delete');
 

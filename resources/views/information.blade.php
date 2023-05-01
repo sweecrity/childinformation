@@ -82,6 +82,6 @@
 
   <br />
   <div class="text-center">
-  <a href="{{ url('/Form') }}" > <button class="btn-success" >Add New </Button></a>
+  <a href="{{ url('/form') }}" > <button class="btn-success" >Add New </Button></a>
   </div>
 </html>

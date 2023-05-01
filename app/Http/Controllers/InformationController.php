@@ -26,7 +26,7 @@ class InformationController extends Controller
     {
        $child=Child::findorFail($id);
        $child->delete();
-       return redirect('/Information')->with('success', 'Information deleted successfully');
+       return redirect('/information')->with('success', 'Information deleted successfully');
     }
 
     public function registration(Request $request)
@@ -60,7 +60,7 @@ class InformationController extends Controller
         $child->state=$request->childstate;
         $child->zipcode=$request->childzipcode;
         $child->save();
-        return redirect('/Information')->with('success','Information Added Successfully');
+        return redirect('/information')->with('success','Information Added Successfully');
 
 
     }
