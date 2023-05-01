@@ -66,7 +66,7 @@
                 
             <div class="form-group">
                     <label for="child_age">Child Age:</label>
-                    <input type="number"  name="childage" min="0" max="100" value="{{ old('childage') }}"/>
+                    <input type="number"  name="childage" min="0" max="16" value="{{ old('childage') }}"/>
                     <span class="text-danger"> 
                         @error('childage')
                         {{ $message }} 

@@ -27,9 +27,17 @@
 
 <div class="main-content">
 
+
+
+  @if(count($childs)>0)
+  
+
+
   <h1 class="text-center">Informations</h1>
    <hr />
 
+
+ 
   <div class="section__content section__content--p40">
     <div class="container-fluid">
       <div class="row">
@@ -79,6 +87,13 @@
 </div>
 </div>
 
+  
+@else
+  <div class="text-center">
+  <h1>No Informations to show!!!</h1>
+  <div>
+  
+@endif
 
   <br />
   <div class="text-center">
